@@ -41,34 +41,9 @@ export class Map extends Component {
                     'properties': {},
                     'geometry': {
                         'type': 'LineString',
-                        'coordinates': [
-                            placeData[0].coordinates,
-                            placeData[1].coordinates,
-                            placeData[6].coordinates,
-                            placeData[11].coordinates,
-                            placeData[3].coordinates,
-                            placeData[16].coordinates,
-                            placeData[10].coordinates,
-                            placeData[6].coordinates,
-                            placeData[5].coordinates,
-                            placeData[12].coordinates,
-                            placeData[8].coordinates,
-                            placeData[4].coordinates,
-                            placeData[7].coordinates,
-                            placeData[9].coordinates,
-                            placeData[14].coordinates,
-                            placeData[4].coordinates,
-                            placeData[8].coordinates,
-                            placeData[11].coordinates,
-                            placeData[14].coordinates,
-                            placeData[15].coordinates,
-                            placeData[0].coordinates,
-                            placeData[2].coordinates,
-                            placeData[13].coordinates,
-                            placeData[4].coordinates,
-                            placeData[9].coordinates,
-                            placeData[2].coordinates,
-                            placeData[3].coordinates,
+                        'coordinates': [                            
+                            [-106.3533684, 37.6788919],
+                            [-105.7009757, 37.9949705]
                             ]
                         }
                     }    
