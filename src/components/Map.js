@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import './Map.css';
 import mapbox from 'mapbox-gl';
-import { placeData } from '../data/data'
 
 export class Map extends Component {
 
