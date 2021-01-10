@@ -7,7 +7,6 @@ export class Map extends Component {
 
     
     componentDidMount(){
-        const mapboxgl = require('mapbox-gl/dist/mapbox-gl.js');
 
         const app = this.props.app
         mapbox.accessToken = 'pk.eyJ1IjoibTEyLXRyZW50IiwiYSI6ImNrZ2UxcHRzcjBqZmIycnFpdzh1MzlkYXAifQ.0UqT-ST0dFdnPhuVd54T5w';
@@ -36,11 +35,6 @@ export class Map extends Component {
         this.props.app.setState({
             map: map
         })
-
-        
-
-        
-
 
 
 
